@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service — EverSnap</title>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #0d0d0d;
+            color: #e0e0e0;
+            line-height: 1.75;
+            padding: 0 20px 60px;
+        }
+
+        .container {
+            max-width: 780px;
+            margin: 0 auto;
+        }
+
+        header {
+            padding: 48px 0 32px;
+            border-bottom: 1px solid #2a2a2a;
+            margin-bottom: 40px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #7B2FBE22;
+            color: #b57bee;
+            border: 1px solid #7B2FBE55;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            padding: 4px 14px;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .meta {
+            font-size: 0.875rem;
+            color: #888;
+            line-height: 1.8;
+        }
+
+        .meta strong {
+            color: #aaa;
+        }
+
+        h2 {
+            color: #7B2FBE;
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin: 2.5em 0 0.75em;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #1e1e1e;
+        }
+
+        h3 {
+            color: #c9a0f5;
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin: 1.5em 0 0.5em;
+        }
+
+        p {
+            margin-bottom: 1em;
+            color: #ccc;
+        }
+
+        ul, ol {
+            margin: 0.5em 0 1em 1.5em;
+            color: #ccc;
+        }
+
+        li {
+            margin-bottom: 0.4em;
+        }
+
+        a {
+            color: #a06ee8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #b57bee;
+        }
+
+        .highlight-box {
+            background: #7B2FBE14;
+            border: 1px solid #7B2FBE44;
+            border-left: 3px solid #7B2FBE;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin: 1.5em 0;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+        .warning-box {
+            background: #2a1a00;
+            border: 1px solid #5a3a0044;
+            border-left: 3px solid #f59e0b;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin: 1.5em 0;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+        .info-box {
+            background: #0d1f2d;
+            border: 1px solid #1e3a5044;
+            border-left: 3px solid #38bdf8;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin: 1.5em 0;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1em 0 1.5em;
+            font-size: 0.9rem;
+        }
+
+        th {
+            background: #1a1a1a;
+            color: #b57bee;
+            font-weight: 600;
+            text-align: left;
+            padding: 10px 14px;
+            border: 1px solid #2a2a2a;
+        }
+
+        td {
+            padding: 10px 14px;
+            border: 1px solid #1e1e1e;
+            color: #ccc;
+            vertical-align: top;
+        }
+
+        tr:nth-child(even) td {
+            background: #111;
+        }
+
+        .toc {
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 10px;
+            padding: 20px 24px;
+            margin-bottom: 2.5em;
+        }
+
+        .toc p {
+            color: #888;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .toc ol {
+            margin-left: 1.2em;
+        }
+
+        .toc li {
+            margin-bottom: 6px;
+        }
+
+        .toc a {
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        .toc a:hover {
+            color: #b57bee;
+        }
+
+        footer {
+            margin-top: 4em;
+            padding-top: 1.5em;
+            border-top: 1px solid #1e1e1e;
+            font-size: 0.82rem;
+            color: #555;
+            text-align: center;
+            line-height: 2;
+        }
+
+        footer a {
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.5rem; }
+            h2 { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <header>
+        <div class="badge">EverSnap — Legal</div>
+        <h1>Terms of Service</h1>
+        <p class="meta">
+            <strong>App:</strong> EverSnap — WhatsApp Status Saver<br>
+            <strong>Developer:</strong> Matlupy<br>
+            <strong>Package:</strong> com.eversnap.app<br>
+            <strong>Effective date:</strong> 15 April 2026<br>
+            <strong>Last updated:</strong> 15 April 2026
+        </p>
+    </header>
+
+    <div class="info-box">
+        These are the app-specific Terms of Service for EverSnap. They supplement the
+        <a href="../company-terms.html">Matlupy Company Terms of Service</a>, which also apply to your use of this app.
+        In the event of any conflict, these app-specific terms take precedence for EverSnap.
+    </div>
+
+    <div class="toc">
+        <p>Contents</p>
+        <ol>
+            <li><a href="#about">About EverSnap</a></li>
+            <li><a href="#whatsapp-disclaimer">WhatsApp Disclaimer</a></li>
+            <li><a href="#acceptable-use">Acceptable Use</a></li>
+            <li><a href="#free-tier">Free Tier Limitations</a></li>
+            <li><a href="#subscriptions">Premium Subscriptions</a></li>
+            <li><a href="#refunds">Refund Policy</a></li>
+            <li><a href="#content-rights">Content &amp; Copyright</a></li>
+            <li><a href="#ads">Advertising</a></li>
+            <li><a href="#disclaimer">Disclaimer of Liability</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ol>
+    </div>
+
+    <!-- 1 -->
+    <h2 id="about">1. About EverSnap</h2>
+    <p>EverSnap is a WhatsApp status saver application that allows you to view, save, and optionally share WhatsApp statuses posted by your contacts before they expire. The app reads status media that is already stored on your device by WhatsApp and saves copies to your chosen folder.</p>
+    <p>EverSnap does not intercept network traffic, bypass encryption, or access WhatsApp servers. It only reads files from the local storage location that WhatsApp itself writes to on your Android device.</p>
+
+    <!-- 2 -->
+    <h2 id="whatsapp-disclaimer">2. WhatsApp Disclaimer</h2>
+
+    <div class="warning-box">
+        <strong>EverSnap is an independent third-party application. It is not affiliated with, endorsed by, sponsored by, or in any way associated with WhatsApp LLC, Meta Platforms Inc., or any of their subsidiaries or affiliates.</strong>
+    </div>
+
+    <p>"WhatsApp" is a registered trademark of WhatsApp LLC. The use of this name in our app description is solely for the purpose of identifying the service our app is designed to work with, as permitted under nominative fair use.</p>
+    <p>EverSnap relies on file access permitted by Android's storage framework. WhatsApp may change its storage behaviour at any time, which could affect EverSnap's functionality. We are not responsible for changes made by WhatsApp to their platform.</p>
+
+    <!-- 3 -->
+    <h2 id="acceptable-use">3. Acceptable Use</h2>
+    <p>By using EverSnap, you agree to the following:</p>
+    <ul>
+        <li>You will only save statuses posted by contacts who have chosen to share them with you via WhatsApp's status feature.</li>
+        <li>You will not use EverSnap to collect, store, or distribute status content without the knowledge or reasonable expectation of the person who posted it.</li>
+        <li>You will not use saved status content for commercial purposes, harassment, defamation, or any unlawful purpose.</li>
+        <li>You will not share saved status content in a manner that violates the privacy or dignity of the person who originally posted it.</li>
+        <li>You accept full personal responsibility for how you use, store, and share any content saved through EverSnap.</li>
+    </ul>
+    <p>EverSnap is a tool. How you use it — and whether that use is ethical or legal — is entirely your responsibility.</p>
+
+    <!-- 4 -->
+    <h2 id="free-tier">4. Free Tier Limitations</h2>
+    <p>EverSnap is free to download and use with the following limitations on the free tier:</p>
+    <ul>
+        <li><strong>Saved status limit:</strong> The free tier retains only your most recent 15 saved statuses. Older saves are automatically removed when this limit is reached.</li>
+        <li><strong>Advertisements:</strong> Free-tier users see banner and interstitial ads served by Google AdMob.</li>
+        <li><strong>Feature restrictions:</strong> Certain premium features (including preset share messages, new status alerts, and auto-save before expiry) are available to Premium subscribers only.</li>
+    </ul>
+    <p>Free tier limits are subject to change. We will notify users of significant changes via an in-app message.</p>
+
+    <!-- 5 -->
+    <h2 id="subscriptions">5. Premium Subscriptions</h2>
+    <p>EverSnap Premium is available as a recurring subscription that removes ads and unlocks all premium features.</p>
+
+    <table>
+        <tr>
+            <th>Plan</th>
+            <th>Price (India)</th>
+            <th>Billing</th>
+        </tr>
+        <tr>
+            <td>EverSnap Premium — Yearly</td>
+            <td>₹799 / year</td>
+            <td>Annually via Google Play</td>
+        </tr>
+    </table>
+
+    <p>Prices are shown in local currency at the point of purchase and may vary by region. Subscriptions are managed through <strong>RevenueCat</strong> and billed via <strong>Google Play Billing</strong>.</p>
+
+    <div class="highlight-box">
+        Premium features include: unlimited status saves, no advertisements, preset share messages, new status alerts, and auto-save before expiry.
+    </div>
+
+    <h3>5.1 Auto-Renewal</h3>
+    <p>Your subscription renews automatically unless cancelled at least 24 hours before the renewal date. To cancel, go to <strong>Google Play Store → Subscriptions → EverSnap</strong> and cancel there. You retain Premium access until the end of the current paid period.</p>
+
+    <h3>5.2 Entitlement Verification</h3>
+    <p>Premium status is verified on app launch via RevenueCat. An active internet connection may be required periodically to confirm your subscription status.</p>
+
+    <!-- 6 -->
+    <h2 id="refunds">6. Refund Policy</h2>
+    <p>Subscription fees are generally non-refundable once a billing period has started. Refunds are subject to <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">Google Play's refund policy</a>.</p>
+    <p>You may be eligible for a refund in the following circumstances:</p>
+    <ul>
+        <li>You request a refund within 48 hours of the initial purchase and have not meaningfully used Premium features.</li>
+        <li>A verified technical fault on our end prevented you from accessing Premium features for a significant portion of your paid period.</li>
+    </ul>
+    <p>To request a refund, contact us at <a href="mailto:eversnap924@gmail.com">eversnap924@gmail.com</a> with your order details. We will review each request on its merits and respond within 5 business days. For billing disputes, you may also raise them directly with Google Play.</p>
+
+    <!-- 7 -->
+    <h2 id="content-rights">7. Content &amp; Copyright</h2>
+    <p>WhatsApp statuses are content created by third parties (your contacts). EverSnap does not claim any ownership over status content you save. Equally, we do not grant you any rights to that content beyond what you already hold.</p>
+    <p>Copyright in WhatsApp statuses belongs to the person who created and posted them. Saving a status for personal viewing is generally considered fair use in most jurisdictions. Redistributing, publishing, or commercially exploiting saved status content without the creator's permission may infringe their copyright and is your sole responsibility.</p>
+    <p>If you believe EverSnap is being used to infringe your copyright, contact us at <a href="mailto:eversnap924@gmail.com">eversnap924@gmail.com</a>.</p>
+
+    <!-- 8 -->
+    <h2 id="ads">8. Advertising</h2>
+    <p>Free-tier users of EverSnap are shown advertisements served by <strong>Google AdMob</strong>. By using the free tier, you consent to the display of personalised or contextual ads in accordance with <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google's advertising policies</a>.</p>
+    <p>Premium subscribers have all advertisements permanently removed for the duration of their active subscription.</p>
+    <p>We do not sell your personal data to advertisers. Ad personalisation is handled entirely by Google's advertising infrastructure.</p>
+
+    <!-- 9 -->
+    <h2 id="disclaimer">9. Disclaimer of Liability</h2>
+    <p>EverSnap is provided on an "as is" basis. We make no guarantees that:</p>
+    <ul>
+        <li>The app will work with all versions of WhatsApp or all Android devices.</li>
+        <li>Saved statuses will be retained indefinitely — device storage, app updates, or OS changes may affect saved files.</li>
+        <li>The app will be available at all times without interruption.</li>
+    </ul>
+    <p>We are not liable for any loss of saved content, missed statuses, or consequences arising from your use of saved content. Our full liability terms are set out in the <a href="../company-terms.html#liability">Matlupy Company Terms of Service — Section 8</a>.</p>
+
+    <!-- 10 -->
+    <h2 id="contact">10. Contact</h2>
+    <p>For questions, support, or refund requests related to EverSnap:</p>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:eversnap924@gmail.com">eversnap924@gmail.com</a></li>
+        <li><strong>Developer:</strong> Matlupy</li>
+        <li><strong>Response time:</strong> We aim to respond within 5 business days.</li>
+    </ul>
+    <p>For general Matlupy company terms or multi-app legal queries: <a href="mailto:lukes.muthalaly@gmail.com">lukes.muthalaly@gmail.com</a></p>
+    <p>For subscription billing issues, contact <a href="https://support.google.com/googleplay" target="_blank" rel="noopener">Google Play Support</a> directly.</p>
+
+    <footer>
+        <p>© 2026 Matlupy. EverSnap is an independent app — not affiliated with WhatsApp LLC or Meta Platforms Inc.</p>
+        <p>
+            <a href="../company-terms.html">Company Terms of Service</a> ·
+            <a href="privacy.html">Privacy Policy</a> ·
+            <a href="mailto:eversnap924@gmail.com">eversnap924@gmail.com</a>
+        </p>
+    </footer>
+
+</div>
+</body>
+</html>
